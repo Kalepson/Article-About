@@ -23,7 +23,6 @@ menu_text.forEach(element => {
     const li = document.createElement("li");
     li.textContent = element;
     li.setAttribute("data-text", element)
-
     menu.append(li)
 })
 
